@@ -1,0 +1,184 @@
+/* 
+    Template Name: Write Your Template Name
+    Author: Pro Design Desk Team
+    Website: www.proddesk.com
+*/
+
+/*=========================
+    TABLE OF CONTENTS
+==========================*/
+
+
+/*
+    1. CSS RESET
+    2. DOCUMENT STYLES
+    3. TYPOGRAPHY 
+    4. HEADER 
+    5. FOOTER
+*/
+
+
+/* =========================
+    1. CSS RESET
+============================ */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==================================
+    2. DOCUMENT STYLES
+==================================== */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #959595;
+    background-color: #fff;
+}
+
+/* ==================================
+    3. TYPOGRAPHY 
+==================================== */
+
+p,a,span {
+    color: #959595;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 23px;
+}
+p {
+    padding-bottom: 15px;
+}
+a {
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a.learn-more {
+    position: relative;
+    text-align: left;
+    display: block;
+    width: 100%;
+    padding-left: 90px;
+    margin-top: 10px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+    color: #363636;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 31px;
+    line-height: 31px;
+}
+h2 {
+    font-size: 28px;
+    line-height: 28px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #959595;
+}
+h4 {
+    font-size: 21px;
+    line-height: 28px;
+    color: #959595;
+}
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+}
+h6 {
+    font-size: 15px;
+    line-height: 15px;
+}
+strong {
+    font-weight: 600;
+}
+strong a:hover {
+    text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+img.float-left {
+    float: left;
+    margin: 12px 12px 12px 0;
+}
+img.float-right {
+    float: right;
+    margin: 12px 0px 12px 12px;
+}
+.img-full-size {
+    width: 100%;
+    height: auto;
+}
+.img-center {
+    display: table;
+    margin: 0 auto;
+}
+/* ==================================
+    4. HEADER
+==================================== */
+
+
+
+/* ==================================
+    4.FOOTER
+==================================== */
